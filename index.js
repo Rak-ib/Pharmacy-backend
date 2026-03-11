@@ -15,6 +15,7 @@ app.use(cors(corsOptions));
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
+app.route("/auth",)
 
 connectDB();
 
